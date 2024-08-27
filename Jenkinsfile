@@ -5,7 +5,7 @@ pipeline {
 }
 
 	stages {
-	    stage(Checkout) {
+	    stage('Checkout') {
 	        steps {
 		      git  'https://github.com/siddhipande3/BAKU.git'			       
 				}
