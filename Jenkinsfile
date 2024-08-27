@@ -1,7 +1,7 @@
 pipeline{
       agent any
              stages{
-                 stages(checkout){
+                 stage(checkout){
                    steps{ git 'https://github.com/siddhipande3/BAKU.git'
                         }
                       }
