@@ -17,7 +17,7 @@ pipeline {
 		    steps {
 			script {
 			 if ( "${env.ENVIRONMENT}" == 'QA' ){
-        	sh 'cp target/BAKU.war /home/siddhi/Downloads/apache-tomcat-9.0.93/webapps
+        	sh 'cp target/BAKU.war /home/siddhi/Downloads/apache-tomcat-9.0.93/webapps'
 
         	echo "deployment has been done on QA!"
 			 }
